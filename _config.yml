@@ -61,5 +61,5 @@ ignore: null
 theme: fluid
 deploy:
   type: git
-  repo: git@github.com:Conscious-77/Conscious-77.github.io.git
-  branch: main
+  repo: https://github.com/Conscious-77/Conscious-77.github.io.git
+  branch: gh-pages
