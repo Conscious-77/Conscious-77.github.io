@@ -1,7 +1,7 @@
 # Fluid 主题配置
 # 导航栏
 navbar:
-  blog_title: "我的博客"
+  blog_title: "老七"
   ground_glass:
     enable: true
     blur: 0.7
@@ -14,14 +14,16 @@ navbar:
 
 # 首页配置
 index:
-  banner_img: https://raw.githubusercontent.com/fluid-dev/static/master/hexo-theme-fluid/screenshots/index.png
+  banner_img: /img/fjord.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   slogan:
     enable: true
-    text: "分享技术，记录生活"
+    text: "Conscious At Times"
     font_size: 1.5rem
     line_height: 1.5
+    font_family: "Georgia, serif"
+    font_style: "italic"
   
   # 文章摘要设置
   post_meta:
@@ -55,7 +57,7 @@ post:
     tag:
       enable: true
   
-  banner_img: https://raw.githubusercontent.com/fluid-dev/static/master/hexo-theme-fluid/screenshots/post.png
+  banner_img: /img/fjord.jpg
   banner_img_height: 50
   banner_mask_alpha: 0.3
 

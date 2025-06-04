@@ -145,9 +145,9 @@ html {
 }
 
 #banner .text-white {
-    font-family: 'Playfair Display', serif !important;
-    font-style: italic !important;
-    letter-spacing: 1px !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
