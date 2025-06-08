@@ -32,9 +32,17 @@ html {
 /* 调整文章内容字体大小 */
 .post-content {
   font-size: var(--font-size-base);
-  line-height: 1.8;
+  line-height: 2.0;
   font-family: "PingFang SC", "PingFang", "PingFang TC", "PingFang HK", "PingFang SC", "PingFang", "PingFang TC", "PingFang HK", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
+}
+
+.post-content p {
+  line-height: 2.0 !important;
+}
+
+body .markdown-body p {
+  line-height: 2.0 !important;
 }
 
 /* 调整导航栏大小 */
