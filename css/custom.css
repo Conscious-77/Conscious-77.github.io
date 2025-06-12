@@ -1,26 +1,6 @@
 /* 全局样式调整 */
 :root {
   --content-width: 90%;
-  --font-size-base: 0.95rem;
-}
-
-/* 全局缩放 */
-html {
-  zoom: 0.9;
-  -ms-zoom: 0.9;
-  -webkit-zoom: 0.9;
-  -moz-transform: scale(0.9);
-  -moz-transform-origin: 0 0;
-}
-
-/* 适配移动端 */
-@media screen and (max-width: 768px) {
-  html {
-    zoom: 1;
-    -ms-zoom: 1;
-    -webkit-zoom: 1;
-    -moz-transform: scale(1);
-  }
 }
 
 /* 调整内容区域宽度和间距 */
@@ -31,18 +11,15 @@ html {
 
 /* 调整文章内容字体大小 */
 .post-content {
-  font-size: var(--font-size-base);
-  line-height: 2.0;
-  font-family: "PingFang SC", "PingFang", "PingFang TC", "PingFang HK", "PingFang SC", "PingFang", "PingFang TC", "PingFang HK", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 300;
+  line-height: 3.0;
 }
 
 .post-content p {
-  line-height: 2.0 !important;
+  line-height: 3.0 !important;
 }
 
 body .markdown-body p {
-  line-height: 2.0 !important;
+  line-height: 3.0 !important;
 }
 
 /* 调整导航栏大小 */
@@ -141,9 +118,6 @@ body .markdown-body p {
   padding-right: 15px;
 } 
 
-/* 导入 Playfair Display 字体 */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
-
 /* 隐藏滚动条（保留之前的设置） */
 ::-webkit-scrollbar {
     display: none;
@@ -169,32 +143,4 @@ body .markdown-body p {
 /* 适配 IE */
 * {
     -ms-overflow-style: none;
-}
-
-/* 保持页面可滚动 */
-html, body {
-    overflow-y: auto;
-}
-
-/* About 页面样式 */
-.about-content {
-  font-family: "PingFang SC", "PingFang", "PingFang TC", "PingFang HK", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 300;
-  line-height: 2.2;
-  font-size: 1.1rem;
-  color: #333;
-  margin: 2rem 0;
-  letter-spacing: 0.05em;
-}
-
-.about-content p {
-  margin-bottom: 1.5rem;
-}
-
-/* 引用样式 */
-.about-content .quote {
-  font-style: italic;
-  font-size: 0.95rem;
-  color: #666;
-  margin: 1.5rem 0;
 } 
