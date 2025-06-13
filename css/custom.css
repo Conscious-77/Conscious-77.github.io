@@ -11,14 +11,17 @@
 
 /* 调整文章内容字体大小 */
 .post-content {
+  font-size: 14px;
   line-height: 3.0;
 }
 
 .post-content p {
+  font-size: 14px !important;
   line-height: 3.0 !important;
 }
 
 body .markdown-body p {
+  font-size: 14px !important;
   line-height: 3.0 !important;
 }
 
