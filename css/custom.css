@@ -1,1 +1,34 @@
 /* 自定义样式 */ 
+.post-content {
+  font-size: 14px;
+  line-height: 3.0;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 标签和分类样式 */
+.post-meta {
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 调整文章标题的边距 */
+.post-title {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+
+:root {
+  --content-width: 95%; /* 增加内容区域的百分比宽度 */
+}
+
+/* 调整内容区域宽度和间距 */
+.container {
+  width: var(--content-width);
+  max-width: 1400px; /* 增加容器的最大宽度限制 */
+} 
