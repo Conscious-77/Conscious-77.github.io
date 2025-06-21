@@ -19,7 +19,7 @@ index:
   banner_mask_alpha: 0.3
   slogan:
     enable: true
-    text: "Conscious At Times"
+    text: "\"Conscious At Times.\""
     font_size: 1.5rem
     line_height: 1.5
     font_family: "Georgia, serif"
